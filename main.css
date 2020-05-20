@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Avenir");
+
+
+@media screen and (max-width: 992px) {
+    .header-width {
+        max-width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .half-width {
+        margin: 0 auto !important;
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+
+    .tiny-padding {
+        padding: 20px 0 !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-width {
+        max-width: 90% !important;
+    }
+
+    .half-width {
+        padding-right: 10px !important;
+        width: 100% !important;
+    }
+
+    .register-left, .setup-left {
+        padding-left: 10px !important;
+    }
+
+    .half-right {
+        padding-right: 10px !important;
+    }
+
+    .register-font {
+        text-align: center !important;
+    }
+
+    .text-box-sound,
+    .text-box-youtube,
+    .text-box-amazon {
+        margin: 0 auto !important;
+        max-width: 60% !important;
+        max-height: 60% !important;
+    }
+
+    .text-box-sound {
+        padding: 2.5% 5% !important;
+    }
+
+    .text-box-youtube {
+        padding: 6% 3.5% !important;
+    }
+
+    .text-box-amazon {
+        padding: 4% 3% !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-logo {
+        min-width: 260px !important;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.float-body {
+    margin: 0 auto;
+    width: 100%;
+    /*max-width: 2479px;*/
+    max-width: 1024px;
+    height: auto;
+    text-align: center;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+}
+
+.header-logo {
+    margin: -10px auto 0 auto;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-image: url("./images/header-logo.png");
+}
+
+.opacity-color {
+    display: inline-block;
+    margin-top: -10px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.7);
+}
+
+.header-width {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 50%;
+}
+
+.all-track-top {
+    padding-top: 110px;
+}
+
+.all-tract-size {
+    width: 70px;
+}
+
+.txt-large, .txt-medium {
+    font-weight: bold;
+}
+
+.txt-large {
+    padding-top: 15px;
+    font-size: 2rem;
+}
+
+.txt-medium {
+    padding-top: 30px;
+    font-size: 1.8rem;
+}
+
+.small-padding {
+    padding-top: 20px;
+}
+
+.txt-small {
+    font-size: 1.4rem;
+}
+
+.main-body-padding {
+    padding: 20px;
+}
+
+.register-left, .setup-left {
+    padding-left: 40px;
+}
+
+.register-left {
+    background-color: #f8f8f8;
+}
+
+.register-font {
+    padding-top: 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.half-width {
+    padding-right: 30px;
+    width: 50%;
+}
+
+.half-right {
+    padding-right: 30px;
+}
+
+hr {
+    margin-top: 10px;
+    width: 55px;
+    height: 7px;
+    background-color: #ff530a;
+}
+
+.text-box-sound,
+.text-box-youtube,
+.text-box-amazon {
+    width: 100%;
+    max-width: 100%;
+    min-width: 200px;
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.text-box-sound {
+    padding: 5% 10%;
+    border: 2px solid gray;
+}
+
+.text-box-youtube {
+    padding: 12% 7%;
+    border: 2px solid gray;
+}
+
+.text-box-amazon {
+    padding: 8% 6%;
+    border: 2px solid gray;
+}
+
+.text-box-sound:hover,
+.text-box-youtube:hover,
+.text-box-amazon:hover {
+    border: 2px solid #4743ed;
+}
+
+.sound-logo,
+.youtube-logo,
+.amazon-logo {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.txt-tiny {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.tiny-padding {
+    padding: 20px 15px;
+}
